@@ -5,22 +5,26 @@ import Comp1 from '../components/comp1'
 import Codeblock from '../components/core/Codeblock'
 import About from "./About"
 import InstructorSection from '../components/InstructorSection'
+import Footer from '../components/core/Footer'
 
 
 const Home = () => {
   return (
     <div className='w-full  h-screen  items-center justify-center '>
-      <div className='background w-full h-[600px] flex items-center justify-center bg-yellow-800  '>
+      <div className='background w-full min-h-[600px] flex items-center justify-center bg-yellow-800  '>
       <Codeblock 
-      codeblock={`WELCOME T0 MP DESIGN AND DECORATION\n 10+ Years Of Experiences.`}
-                codeColor={"text-richblue-300"}
+      codeblock={`WELCOME T0 MP DESIGN AND DECORATION`}
+                codeColor={"text-wht-700"}
                />
+
+
+               
         
       </div>
 
       <div className='w-full items-center flex-col flex justify-center h-[200px] bg-yellow-200 mt-1'> 
         <p className='font-bold capitalize flex items-center justify-center text-[30px] font-serif'>STILL CONFUSED ABOUT STARTING YOUR DREAM HOME PROJECT ?</p>
-        <p className='font-bold capitalize flex items-center justify-center text-[22px] '>Get Free Quote And Consultaion</p>
+        <p className='font-bold capitalize flex items-center justify-center text-[22px] '>Get Free Quote And Consultation</p>
       
         <div>
         <button className='px-3 py-2 bg-blue-600 text-white  font-semibold mt-2' >
@@ -36,15 +40,18 @@ const Home = () => {
       </div>
 
       <div className='w-full h-fit-content'>
-        <Comp1/>
+            <div className='w-full h-fit flex flex-col bg-[#2596be]  justify-center items-center py-4 mt-2' >
+              <p className='text-[40px] font-[560] font-mono '>Your Dream Home Is Only 4 Steps away</p>
+              <p className='font-semibold text-[18px] font-mono'> Can't get simpler than this </p>
+            </div>
       </div>
 
       <About/>
 
       
     
+      <Footer/>
 
-<InstructorSection />
 
 
 

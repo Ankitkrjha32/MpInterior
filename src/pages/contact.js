@@ -3,7 +3,7 @@ import ContactUsForm from '../components/contactUs/ContactUsForm'
 
 const ContactUs = () => {
   return (
-    <div className='bg-[#2668c5] '>
+    <div className='bg-[#18241f] '>
         <div className='mx-auto mt-20 flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-black  lg:flex-row h-screen '>
         <div className='lg:w-[40%]'>
             <div className='flex flex-col gap-6 rounded-xl bg- p-4 lg:p-6'>
@@ -34,11 +34,11 @@ const ContactUs = () => {
             </div>
         </div>
         <div className='lg:w-[60%]'>
-            <div className=' border-green-800 border-2 text-white rounded-xl p-7 lg:p-14 flex gap-3 flex-col bg-richblack-800'>
+            <div className=' border-green-800 border-2 text-white rounded-xl p-7 lg:p-14 flex gap-3 flex-col bg-[#2b4138]'>
                 <h1 className='text-4xl leading-10 font-bold text-red-500'>
-                Got a Idea? We've got the skills. Let's team up
+                Contact Us For Free Quote:
                 </h1>
-                <p className='text-lg font-medium text-yellow-400'>Tell us more about yourself and what you're got in mind.</p>
+                <p className='text-lg font-medium text-yellow-400'>Tell us more about your your idea</p>
                 <div className='mt-7'>
                     <ContactUsForm/>
                 </div>

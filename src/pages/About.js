@@ -12,6 +12,10 @@ import BD1 from "../assets/bd1.jpg"
 import BD3 from "../assets/bd3.jpg"
 import BD4 from "../assets/bd4.jpg"
 import BD5 from "../assets/bd5.jpg"
+import Tran from "../assets/bd3.jpg"
+import Tran1 from "../assets/tran3.jpg"
+import Tran2 from "../assets/tran2.jpg"
+import FD from "../assets/2.jpg"
 
 
 const About = () => {
@@ -34,9 +38,9 @@ const About = () => {
             </header>
             <div className='sm:h-[70px] lg:h-[120px]'></div>
             <div className='absolute bottom-0 left-[50%] grid w-[100%] translate-x-[-50%] translate-y-[60%] grid-cols-3 gap-3 lg:gap-5'>
-                 <img src={BD5} /> 
-                <img src={BD1} />
-                <img src={BD5} /> 
+                 <img src={Tran} /> 
+                <img src={BD5} />
+                <img src={Tran1} /> 
             </div>
         </div>
       </section>
@@ -70,7 +74,7 @@ Securing our initial funding was a pivotal moment, propelling us from ideation t
                 </div>
                 {/* foudning story right box */}
                 <div>
-                    <img className='shadow-[0_0_20px_0] shadow-[#FC6767] mt-6'  src={BD} />
+                    <img className='shadow-[0_0_20px_0] shadow-[#FC6767] mt-6 w-[600px] h-[800px]'  src={FD} />
                 </div>
             </div>
 
